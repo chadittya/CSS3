@@ -17,11 +17,16 @@ Property CSS3 ada yang masih experimental, sehingga ada beberapa property yang t
 # BORDER-RADIUS  
 
 Project name : ```../html/border-radius.html```  
-CSS : ```../css/style-border-radius.css```
+CSS : ```../css/style-border-radius.css```  
 <br>
 # OPACITY | HSLa & RGBa 
 
 Project name : ```../html/opacity.html```  
 CSS : ```../css/style-opacity.css```  
 <br>
+# BOX-SHADOW  
 
+Project name:
+Project name : ```../html/box-shadow.html```  
+CSS : ```../css/style-box-shadow.css```  
+<br>

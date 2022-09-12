@@ -1,0 +1,44 @@
+.kotak{
+    width: 300px;
+    height: 300px;
+}
+
+.kotak-1{
+    background-color: #39b54a;
+    margin: 50px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .75); /* x-offset y-offset blur color */
+}
+
+.kotak-2{
+    background-color: blueviolet;
+    margin: auto;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .75); /* x-offset y-offset blur spread color */ 
+    /* spread bisa dikasih value minus  */
+}
+
+.kotak-3{
+    background-color: yellowgreen;
+    margin: 50px auto;
+    box-shadow: 0px 30px 10px -20px rgba(0, 0, 0, .75); /* x-offset y-offset blur spread color */ 
+    /* spread bisa dikasih value minus  */
+    transition: .3s; /* agar pergerakan lebih halus saat di hover */
+}
+
+.kotak-3:hover{
+    box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, .15);
+    margin-top: 40px;
+}
+
+.kotak-4{
+    background-color: aqua;
+    margin: auto;
+
+    /* property inset digunakan untuk membuat banyangannya berada dalam box, bukan diluar  */
+    box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, .5);
+}
+
+.kotak-5{
+    background-color: purple;
+    margin: 50px auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5), -5px -5px 5px rgba(255, 0, 0, .5), 0 0 0 10px limegreen;
+}
