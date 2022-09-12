@@ -39,3 +39,8 @@ CSS : ```../css/style-text-shadow.css```
 Project name : ```../html/gradient.html```  
 CSS : ```../css/style-gradient.css```  
 <br>
+# FONT-FACE 
+
+Project name : ```../html/font-face.html```  
+CSS : ```../css/style-font-face.css```  
+<br>
