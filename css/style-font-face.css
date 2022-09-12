@@ -18,6 +18,8 @@ url('lokasi/file/fontBaru.svg#svgFontName') format('svg');
 } */
 
 /* web free font fontsquirrel.com */
+/* selalu gunakan font yang berformat woff/woff2 karena lebih cepat dibuka di web  */
+/* jika tidak ada, gunakan fasilitas web font generator dari website font squirrel tapi pastikan lisensinya boleh digunakan pada website  */
 
 /* saat menggunakan font-face  */
 @font-face {
