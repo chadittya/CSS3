@@ -30,3 +30,9 @@ Project name:
 Project name : ```../html/box-shadow.html```  
 CSS : ```../css/style-box-shadow.css```  
 <br>
+# TEXT-SHADOW  
+
+Project name:
+Project name : ```../html/text-shadow.html```  
+CSS : ```../css/style-text-shadow.css```  
+<br>

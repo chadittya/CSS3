@@ -1,0 +1,10 @@
+h1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* text-shadow: 5px 5px 5px green, -5px -5px 5px red; /* seperti box shadow bisa multiple shadow */
+    color: white;
+    text-shadow: 0 2px 1px black; /* x-ofset y-offset blur color */
+
+    /* contoh - contoh text-shadow https://codepen.io/sandhikagalih/pen/YWyjjP */
+}
