@@ -13,10 +13,14 @@ Sebelum ada CSS3 membuat kotak dengan pinggiran tumpul:
 Property CSS3 yang sering digunakan bisa dilihat di web https://www.quackit.com/css/css3/properties/  
 
 Property CSS3 ada yang masih experimental, sehingga ada beberapa property yang tidak bisa jalan pada browser tersebut. Untuk mengakalinya biasanya menggunakan ```vendor-prefixes```  
-
+<br>
 # BORDER-RADIUS  
 
 Project name : ```../html/border-radius.html```  
+CSS : ```../css/style-border-radius.css```
+<br>
+# OPACITY  
 
-
+Project name : ```../html/opacity.html```  
+CSS : ```../css/style-opacity.css```
 

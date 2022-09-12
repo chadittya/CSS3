@@ -1,0 +1,24 @@
+body{
+    background-image: url(../img/moroccan-flower.png);
+}
+
+.kotak{
+    width: 300px;
+    height: 300px;
+}
+
+.kotak-1{
+    background-color: salmon;
+    opacity: 0.5; /*0-1 valuenya dimana 1 = 100 yang berarti warna solid. bisa ditulis .5 = 0.5*/
+    position: relative;
+}
+
+.kotak-2{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    opacity: .5; /* aslinya 0.25 karena setengah dari opacity parent div-nya */
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
