@@ -22,5 +22,6 @@ CSS : ```../css/style-border-radius.css```
 # OPACITY  
 
 Project name : ```../html/opacity.html```  
-CSS : ```../css/style-opacity.css```
+CSS : ```../css/style-opacity.css```  
+<br>
 
