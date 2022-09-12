@@ -1,0 +1,73 @@
+.kotak{
+    width: 600px;
+    height: 300px;
+}
+
+.kotak-1{
+    margin: 50px auto;
+    background-color: salmon;
+    /* syntax sederhananya = background-image / background: linier-gradient (warna 1, warna 2,.., etc); */
+    background-image: linear-gradient(red,green);
+}
+
+.kotak-2{
+    margin: 50px auto;
+    background-color: salmon;
+    /* syntax lengkapnya = linier-gradient(sudut/arah, warna-1, warna-2,.., warna-n) */
+    background-image: linear-gradient(45deg, red,green); /*deg = degre / derajat*/
+    /* kalau pakai arah =
+    to bottom
+    to top
+    to left
+    to right
+    to left top
+    to left bottom 
+    to right bottom 
+    to right top
+
+    contoh=
+    background-image: linier-gradient(to left, red, green); */
+}
+
+/* color stop  */
+.kotak-3{
+    margin: 50px auto;
+    background-color: salmon;
+    background-image: linear-gradient(to right, red 63%,green 80%); 
+}
+
+.kotak-4{
+    margin: 50px auto;
+    background-color: salmon;
+    
+    /* sintax lengkap radial gradient
+    radial-gradient(
+        <tipe> <jangkauan> at <posisi-y> <posisi-x>,
+        <warna-1>,
+        <warna-2>,
+        <warna-n>
+        ); 
+    
+    tipe = ellipse (default), circle
+    jangkauan = jarak dari pusat gradient ke sisi terluarnya
+        - closest-corner
+        - closest-side
+        - farthest-corner
+        -farthers-side
+    */
+    background-image: radial-gradient(circle closest-side, red, blue);
+}
+
+.kotak-5{
+    margin: 50px auto;
+    background-color: salmon;
+    background-image: radial-gradient(circle farthest-corner, red, blue);
+}
+
+.kotak-6{
+    margin: 50px auto;
+    background-color: salmon;
+    background-image: radial-gradient(circle farthest-side at top left, red, blue);
+
+    /* bisa pake pixel untuk posisinya */
+}
