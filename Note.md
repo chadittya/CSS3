@@ -19,7 +19,7 @@ Property CSS3 ada yang masih experimental, sehingga ada beberapa property yang t
 Project name : ```../html/border-radius.html```  
 CSS : ```../css/style-border-radius.css```
 <br>
-# OPACITY  
+# OPACITY | HSLa & RGBa 
 
 Project name : ```../html/opacity.html```  
 CSS : ```../css/style-opacity.css```  
