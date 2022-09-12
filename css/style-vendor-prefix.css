@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+
+img{
+    -webkit-filter: grayscale(100%); /* untuk prefix chrome*/
+    filter: grayscale(100%);
+
+    /* untuk mengetahui apakah butuh prefix atau tidak kunjungi website
+    https://shouldiprefix.com/
+    https://caniuse.com/ */
+
+}
