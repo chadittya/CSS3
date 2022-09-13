@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    margin: 5px 0;
+    background-color: salmon;
+}
+
+.kotak-1{
+    /* transition: margin-left 1s;  pakai property jika ingin transisi 1-1*/ 
+    transition: 3s;
+}
+
+.kotak-2{
+    transition: 3s ease-in;
+}
+
+.kotak-3{
+    transition: 3s ease-out;
+}
+
+.kotak-4{
+    transition: 3s ease-in-out;
+}
+
+.kotak-5{
+    transition: 3s linear;
+}
+
+.kotak-6{
+    transition: 3s cubic-bezier(0, -0.31, 1, 1.39);
+    /* lebih gampangnya untuk mengisi value untuk property diatas bisa inspect chrome dan setting disana */
+}
+
+.kotak-7{
+    transition: margin-left 3s,  transform 3s 2s, background-color 500ms 3s;
+}
+
+.container{
+    border: 1px solid black;
+}
+
+.container:hover .kotak{
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: royalblue;
+}
