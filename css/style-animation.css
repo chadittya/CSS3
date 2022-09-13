@@ -1,0 +1,45 @@
+/* sintax keyframe
+@keyframes [ name ] {
+    from {
+        [ property - css ]
+    }
+    to {
+       [ property - css ]
+    }
+} */
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+}
+
+/* dengan menggunakan transition */
+/* .kotak-1{
+    transition: 2s;
+}
+
+.kotak-1:hover{
+    transform: scale(2);
+} */
+/* end */
+
+/* dengan menggunakan animation */
+.kotak-1:hover{
+    animation: animasiKotak 2s ease 3 alternate forwards ;
+}
+
+@keyframes animasiKotak {
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 500px;
+        height: 100px;
+    }
+    100%{
+        width: 500px;
+        height: 200px;
+    }
+}
+/* end  */
